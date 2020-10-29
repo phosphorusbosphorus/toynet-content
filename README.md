@@ -98,7 +98,7 @@ The values submodule urges users to take a moment in their session to reflect on
 
 ## Articles
 Directory: `article/`
-Some students prefer real-world scenarios when learning new concepts. The articles submodule is an optional submodule which brings in news articles covering relevant networking concepts.
+Some students prefer real-world scenarios when learning new concepts. The articles submodule brings in news articles covering relevant networking concepts. It will likely be an opt-in submodule type meaning students will have the ability to skip it and still complete the course.
 
 * `meta.json` - contains the URL source of the text, original title, author, and a series of images included in the article (potentially includes citations or captions if provided by news provider)
 ```
