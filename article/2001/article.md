@@ -1,0 +1,13 @@
+Onboard the Pierre de Fermat, internet connectivity is limited. To get online sailors must visit a designated internet cabin to surf the web via a satellite uplink. Yet, this ship and the 80-person crew is an essential part of the internet's sprawling infrastructure: it repairs the vast network of undersea cables connecting the continents.
+
+Running along the seabed are thousands of miles of high capacity, data-transporting pipes. From Malaysia to South Africa and Greenland to Canada, the fibres (literally and digitally) connect the world. When the cables break - caused by sharks, earthquakes and, most commonly, boats - it's the job of the Pierre de Fermat, of Orange Marine, and other similar vessels to reconnect them.
+
+For every journey, bad weather, pirates, and deep murky waters stand in the way of a successful splicing.
+
+As WIRED visits the ship, it's docked in Weymouth, South England, and is reloading in preparation for a job. "Where we're going now, in the North Sea, we will have three or four days to fix the cable" the captain, Guillaume Le Saux, tells WIRED. He's been in charge of submarine cable-fixing boats for almost a decade.
+
+At the heart of Le Saux's boat is its cable, but in an age of machinery and automation, loading it is a decidedly manual task. Spooling from a warehouse – in this case owned by BT – on the side of the dock, the cable snakes its way onto the boat through a number of guiding loops and is fed through the ship until it reaches its core. At each stage it is overseen by watchful crew members.
+
+The entirety of the 100-metre-long ship, which was completed and made its maiden voyage in 2014, is structured around its cable store room. With a capacity of 9,000km (5,592 miles) of cable, the central room (cable tongue) is filled by hand. For its 20-day journey into the North Sea, the boat is being restocked with just 9km (5.5 miles) of undersea connections, a feat that takes several hours to load.
+
+Seven men are required in the cabling room to physically grab and guide the cable around the outside of the room. On the deck above them, more engineers feed the cable through the boat and inspect its internal fibres. Before the Pierre de Fermat sets sail it must ensure the cable is operational; the onboard crew physically cut the cable with a Stanley knife blade to inspect and then test its data-carrying capability. Willy Poulain, the ship's engineering leading, says onboard generators can produce 10,000 volts that are passed through a cable to ensure it is up to the job of transporting some of the world's internet traffic.
