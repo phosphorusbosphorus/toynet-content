@@ -1,6 +1,6 @@
 # ToyNet Content
 
-This repository is used by (Toynet's frontend application)[https://github.com/Project-Reclass/toynet-react] to serve up curriculum content for submodules. It does not currently contain metadata on how the submodules are constructed.
+This repository is used by [Toynet's frontend application](https://github.com/Project-Reclass/toynet-react) to serve up curriculum content for submodules. It does not currently contain metadata on how the submodules are constructed.
 
 This data will be hosted both in *S3* (for web users) and *Nginx* (for laptop users).
 The typical bucket name for submodules will take the form: `toynet.<submodule_type>.<subomdule_number>`.
