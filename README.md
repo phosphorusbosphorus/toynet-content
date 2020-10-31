@@ -7,6 +7,12 @@ The typical bucket name for submodules will take the form: `toynet.<submodule_ty
 The same file path in this repository (used by Nginx) will be: `toynet-content/<submodule_type>/<submodule_number/`.
 Files will have different formats depending on the submodule, but typically have a `meta.json` detailing the contents of the submodule as well as whatever text and image files needed to render the contents in `toynet-react`.
 
+## Unique Identifiers
+
+Article ID, Quiz ID, Value ID, and Lesson ID are unique across submodules and collectively called Submodule IDs. They happen to be sequential per submodule type here for human-readability, but they do not need to be, and will not be.
+
+Once we will build out a separate data storage to order submodules within modules of a curriculum, these identifiers will be replaced by a randomly generated key.
+
 ---
 
 ## Examples
@@ -100,7 +106,7 @@ The values submodule urges users to take a moment in their session to reflect on
 Directory: `article/`
 Some students prefer real-world scenarios when learning new concepts. The articles submodule brings in news articles covering relevant networking concepts. It will likely be an opt-in submodule type meaning students will have the ability to skip it and still complete the course.
 
-* `meta.json` - contains the URL source of the text, original title, author, and a series of images included in the article (potentially includes citations or captions if provided by news provider)
+* `meta.json` - contains the URL source of the text, original title, author, and a series of images included in the article (optionally includes citations or captions if provided by news provider)
 ```
 {
     "source": "https://www.wired.co.uk/article/vint-cerf-interplanetary-internet",
