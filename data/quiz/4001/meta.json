@@ -7,7 +7,7 @@
             "Small Form Factor Pluggable",
             "Fast Fiber"
         ],
-        "answer": 2
+        "answer": 1
     },
     {
         "question": "What level of the 7 Layer OSI model are Routers in?",
@@ -17,7 +17,7 @@
             "Network",
             "Transport"
         ],
-        "answer": 3
+        "answer": 2
     },
     {
         "questions": "What part of IP packet determines destination?",
@@ -27,7 +27,7 @@
             "IP Address",
             "Payload"
         ],
-        "answer": 3
+        "answer": 2
     },
     {
         "questions": "What part of IP packet determines what we seek?",
@@ -37,7 +37,7 @@
             "IP Address",
             "Payload"
         ],
-        "answer": 1
+        "answer": 0
     },
     {
         "questions": "What is the name of a network spanning a small area?",
@@ -47,7 +47,7 @@
             "Line Area Network (LAN)",
             "Wide Area Network (WAN)"
         ],
-        "answer": 1
+        "answer": 0
     },
     {
         "question": "In order to send an IP Packet, what is the first step before it can get sent?",
@@ -57,7 +57,7 @@
             "Gateway",
             "Encapsulation"
         ],
-        "answer": 4
+        "answer": 3
     },
     {
         "question": "Which Small Factor Pluggable is capable of speeds over 40 Gbps?",
@@ -67,7 +67,7 @@
             "Small Factor Pluggable Plus (SFP+)",
             "Multi Small Factor Pluggable (MSFP)"
         ],
-        "answer": 2
+        "answer": 1
     },
     {
         "question": "Which Cable type is divided into categories abbreviated CAT?",
@@ -77,6 +77,6 @@
             "Twisted Pair Cable",
             "Coaxial Cable"
         ],
-        "answer": 3
+        "answer": 2
     }
 ]

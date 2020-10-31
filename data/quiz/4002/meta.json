@@ -7,7 +7,7 @@
             "AOL",
             "HTTPS"
         ],
-        "answer": 4
+        "answer": 3
     },
     {
         "question": "What is Layer 6 of OSI model?",
@@ -17,7 +17,7 @@
             "Network",
             "Transport"
         ],
-        "answer": 2
+        "answer": 1
     },
     {
         "question": "Within the Session Layer, what connection allows applications to talk through ports?",
@@ -27,7 +27,7 @@
             "Sockets",
             "IPP"
         ],
-        "answer": 3
+        "answer": 2
     },
     {
         "question": "When a sender wants to know the physical address of a device it broadcasts what?",
@@ -37,7 +37,7 @@
             "Broadcast Request",
             "ARP Reply"
         ],
-        "answer": 1
+        "answer": 0
     },
     {
         "question": "What is an Internet Control Message Protocol to check if a destistination device is responding?",
@@ -47,7 +47,7 @@
             "ICMP Reply",
             "ICMP Ping"
         ],
-        "answer": 4
+        "answer": 3
     },
     {
         "question": "In 2020 nearly all websites use what type of cryptographic protocol?",
@@ -57,7 +57,7 @@
             "Transfer Layer Security",
             "Secure Layer Security,"
         ],
-        "answer": 1
+        "answer": 0
     },
     {
         "question": "What OSI layer does Chrome and other browsers use TLS to encrypt data?",
@@ -67,7 +67,7 @@
             "Session",
             "Presentation"
         ],
-        "answer": 3
+        "answer": 2
     },
     {
         "question": "Which network protocol is often used for video game streaming in which some packet drop is preferable to overall latency?",
@@ -77,7 +77,7 @@
             "Transmission Control Protocol",
             "File Transfer Protocol"
         ],
-        "answer": 2
+        "answer": 1
     },
     {
         "question": "Which network protocol type can establish a secure connection before sending data?",
@@ -87,7 +87,7 @@
             "Transmission Control Protocol",
             "File Transfer Protocol"
         ],
-        "answer": 3
+        "answer": 2
     },
     {
         "question": "What is the name of small pieces of information sent via TCP/IP?",
@@ -97,6 +97,6 @@
             "Data points",
             "Files"
         ],
-        "answer": 1
+        "answer": 0
     }
 ]
