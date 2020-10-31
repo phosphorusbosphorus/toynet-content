@@ -7,7 +7,7 @@
             "Three nodes",
             "All nodes"
         ],
-        "answer": 4
+        "answer": 3
     },
     {
         "question": "Which of the following is the most fault-tolerant WAN topology?",
@@ -17,7 +17,7 @@
             "Star",
             "Full-mesh"
         ],
-        "answer": 4
+        "answer": 3
     },
     {
         "question": "If a full-mesh WAN consists of four locations, how many separate connections does it contain?",
@@ -27,7 +27,7 @@
             "six",
             "eight"
         ],
-        "answer": 3
+        "answer": 2
     },
     {
         "question": "What makes IEEE Standards so important for business and network specialists?",
@@ -37,7 +37,7 @@
             "instruments",
             "interloaded"
         ],
-        "answer": 2
+        "answer": 1
     },
     {
         "question": "Which IEEE working group oversees all LAN/MAN Standards?",
@@ -47,27 +47,17 @@
             "804",
             "807"
         ],
-        "answer": 2
+        "answer": 1
     },
     {
-        "question": "What piece of hardware is usually at the centre of a star network?",
+        "question": "What piece of hardware is usually at the center of a star network?",
         "options": [
             "Hub",
             "Modem",
             "Server",
             "Router"
         ],
-        "answer": 1
-    },
-    {
-        "question": "What is the topology that combines bus and star topologies called?",
-        "options": [
-            "Starbus Network",
-            "Tree Network",
-            "Combo Network",
-            "Ring Network"
-        ],
-        "answer": 1
+        "answer": 0
     },
     {
         "question": "The Internet is an example of which topology?",
@@ -77,7 +67,7 @@
             "Ring",
             "Mesh"
         ],
-        "answer": 4
+        "answer": 3
     }
 
 ]
