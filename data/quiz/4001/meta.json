@@ -20,7 +20,7 @@
         "answer": 2
     },
     {
-        "questions": "What part of IP packet determines destination?",
+        "question": "What part of IP packet determines destination?",
         "options": [
             "MAC Address",
             "Ethernet",
@@ -30,7 +30,7 @@
         "answer": 2
     },
     {
-        "questions": "What part of IP packet determines what we seek?",
+        "question": "What part of IP packet determines what we seek?",
         "options": [
             "MAC Address",
             "Ethernet",
@@ -40,7 +40,7 @@
         "answer": 0
     },
     {
-        "questions": "What is the name of a network spanning a small area?",
+        "question": "What is the name of a network spanning a small area?",
         "options": [
             "Local Area Network (LAN)",
             "Limited Area Network (LAN)",
