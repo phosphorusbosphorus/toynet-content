@@ -36,8 +36,7 @@
     {
         "type": "LONGTEXT",
         "question": "Please list any questions you still have about the content."
-    }
-][
+    },
     {
         "type": "CHOICE",
         "question": "Do you feel more knowledgable about computer networking than before you took this module?",
@@ -57,14 +56,13 @@
             "Super helpful"
         ]
     },
-
     {
         "type": "SCALE",
         "question": "How helpful was the example of chain of command in understanding OSI layers?",
         "options": [
             "Not at all",
-            "A little",
             "Not very",
+            "Helpful",
             "Super helpful"
         ]
     },
