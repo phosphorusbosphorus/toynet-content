@@ -106,7 +106,7 @@
 			color: white;
 		}
 		span.layer_6_presentation{
-			background-color: #a13; /* red-purple */
+			background-color: #a14; /* red-purple */
 			color: white;
 		}
 		span.layer_5_session{
@@ -152,7 +152,7 @@
 </head>
 <body>
 	<!-- ------------ ------------ ------------ ------------ ------------ -->
-	<h1>A Motivating Example</h1>
+	<h1>What Happens When There is No Network</h1>
 
 	<section class="draft">
 		<svg width="500" height="400">
@@ -175,7 +175,7 @@
 		</svg>
 
 		<section>
-			<h2>example: Host-to-Host Communication (When There is No Network)</h2>
+			<h2>example: Host-to-Host Communication—When There is No Network</h2>
 
 			<h3>Intro</h3>
 			<section>
@@ -204,22 +204,22 @@
 			<h3>Steps</h3>
 			<section>
 				<ul>
-					<li>I plug in a USB to Computer Alpha.</li>
-					<li>I copy the data from Computer Alpha to the USB.</li>
+					<li>I plug in a USB thumb drive to Computer Alpha.</li>
+					<li>I copy the data from Computer Alpha to the USB thumb drive.</li>
 				</ul>
 				<ul>
 					<li>I walk over to Computer Bravo.</li>
 				</ul>
 				<ul>
-					<li>I plug in the USB to Computer Bravo.</li>
-					<li>I copy the data from the USB to Computer Bravo.</li>
+					<li>I plug in the USB thumb drive to Computer Bravo.</li>
+					<li>I copy the data from the USB thumb drive to Computer Bravo.</li>
 				</ul>
 			</section>
 
 			<h3>Room for Improvement</h3>
 			<section>
 				<ul>
-					<li>How can we set up a network, so that this operation can be done without a USB, without physically walking over?</li>
+					<li>How can we set up a network, so that this operation can be done without a USB thumb drive, without physically walking over?</li>
 				</ul>
 			</section>
 		</section>
@@ -248,10 +248,16 @@
 				<h3>Definition</h3>
 				<section>
 					<ul>
-						<li>A <strong>network model</strong> is a simplified representation of a network,
-							<br/>so that a technician can conceptualize the network when troubleshooting problems,
-							<br/>so that technicians can easily communicate with each other, and
-							<br/>so that different manufacturers can design devices to be compatible.</li>
+						<li>A <strong>network model</strong> is a simplified representation of a network.</li>
+					</ul>
+				</section>
+
+				<h3>Advantages</h3>
+				<section>
+					<ul>
+						<li>A <strong>network model</strong> lets a technician conceptualize the network when troubleshooting problems.</li>
+						<li>A <strong>network model</strong> lets technicians easily communicate with each other.</li>
+						<li>A <strong>network model</strong> lets different manufacturers design devices to be compatible.</li>
 					</ul>
 				</section>
 			</section>
@@ -272,8 +278,8 @@
 							<li><span class="layer_1_physical">Layer 1</span> or <span class="layer_1_physical">Physical</span> Layer</li>
 						</ul>
 					</ul>
-					<ul>
-						<li>(We will observe each layer in each lesson module.)</li>
+					<ul class="teaser_alert">
+						<li>(Don't worry about the new terminology yet! We'll later see more of each layer.)</li>
 					</ul>
 				</section>
 			</section>
@@ -290,6 +296,9 @@
 							<li><span class="layer_3_network">Internet</span> Layer</li>
 							<li><span class="layer_2_data_link">Link</span> Layer or <span class="layer_2_data_link">Network Interface</span> Layer</li>
 						</ul>
+					</ul>
+					<ul class="teaser_alert">
+						<li>(Don't worry about the new terminology yet! We'll later see more of each layer, after we see the <strong>OSI 7-layer network model</strong> first.)</li>
 					</ul>
 				</section>
 			</section>
@@ -317,13 +326,13 @@
 		</svg>
 
 		<section>
-			<h2>example: No Network</h2>
+			<h2>preview of upcoming lessons: No Network</h2>
 			<section>
 				<h3></h3>
 				<section>
 					<ul>
-						<li>There are several computers in the vicinity.</li>
-						<li>How can we add devices here to form a network, through which <span class="host">Computer Alpha</span> can send data to <span class="host">Computer Bravo</span>?</li>
+						<li>There are several <span class="host">computers</span> in the vicinity.</li>
+						<li>How can we add devices here to form a <strong>network</strong>, through which <span class="host">Computer Alpha</span> can send data to <span class="host">Computer Bravo</span>?</li>
 					</ul>
 				</section>
 			</section>
@@ -371,14 +380,15 @@
 		</svg>
 
 		<section>
-			<h2>example: OSI Layer 1: Physical</h2>
+			<h2>preview of upcoming lessons: Layer 1: Physical</h2>
 			<section>
 				<h3></h3>
 				<section>
 					<ul>
-						<li>We can add <strong>cables</strong> and <strong>hubs</strong> to connect all the computers together in some formation.</li>
-						<li>A <strong>hub</strong> is a device that receives data, then sends a copy of the data to each connected computer except for the source computer.</li>
-						<li>(We'll later see more of <strong>cables</strong> and <strong>hubs</strong>, which are concepts in <strong>OSI layer 1</strong>.)</li>
+						<li>We can add <span class="layer_1_physical">cables</span> and <span class="layer_1_physical">hubs</span> in some formation, so that the <span class="host">computers</span> are connected.</li>
+					</ul>
+					<ul class="teaser_alert">
+						<li>(Don't worry about the new terminology yet! We'll later see more of <span class="layer_1_physical">cables</span> and <span class="layer_1_physical">hubs</span>, which are concepts in <span class="layer_1_physical">Layer 1</span>.)</li>
 					</ul>
 				</section>
 			</section>
@@ -392,19 +402,19 @@
 				<path d="M0,0
 						C100,0
 						100,150
-						200,150" class="cable layer_1_physical" data-id="host_alpha__hub_hailey"/>
+						200,150" class="cable layer_1_physical" data-id="host_alpha__switch_sally"/>
 				<path d="M0,100
 						C100,100
 						100,150
-						200,150" class="cable layer_1_physical" data-id="host_bravo__hub_hailey"/>
+						200,150" class="cable layer_1_physical" data-id="host_bravo__switch_sally"/>
 				<path d="M0,200
 						C100,200
 						100,150
-						200,150" class="cable layer_1_physical" data-id="host_0__hub_hailey"/>
+						200,150" class="cable layer_1_physical" data-id="host_0__switch_sally"/>
 				<path d="M0,300
 						C100,300
 						100,150
-						200,150" class="cable layer_1_physical" data-id="host_1__hub_hailey"/>
+						200,150" class="cable layer_1_physical" data-id="host_1__switch_sally"/>
 
 				<!-- devices -->
 				<circle cx=0 cy=0 class="device host" data-id="host_alpha"/>
@@ -426,14 +436,15 @@
 		</svg>
 
 		<section>
-			<h2>example: OSI Layer 2: Data Link</h2>
+			<h2>preview of upcoming lessons: Layer 2: Data Link</h2>
 			<section>
 				<h3></h3>
 				<section>
 					<ul>
-						<li>Instead of a <strong>hub</strong>, we can connect a <strong>switch</strong>.</li>
-						<li>A <strong>switch</strong> is a device that receives data, then sends the data to just the destination computer.</li>
-						<li>(We'll later see more of <strong>switches</strong>, which are concepts in <strong>OSI layer 2</strong>.)</li>
+						<li>Instead of a <span class="layer_1_physical">hub</span>, we can add a <span class="layer_2_data_link">switch</span>, so that we can send and receive more precisely.</li>
+					</ul>
+					<ul class="teaser_alert">
+						<li>(Don't worry about the new terminology yet! We'll later see more of <span class="layer_2_data_link">switches</span>, which are concepts in <span class="layer_2_data_link">Layer 2</span>.)</li>
 					</ul>
 				</section>
 			</section>
@@ -441,273 +452,99 @@
 	</section>
 
 	<section class="draft">
-		<svg width="500" height="400">
+		<svg width="500" height="800">
 			<g transform="translate(50, 50)">
 				<!-- cables -->
 				<path d="M0,0
 						C100,0
-						100,50
-						200,50" class="cable layer_1_physical" data-id="switch_sally__host_alpha"/>
+						100,150
+						200,150" class="cable layer_1_physical" data-id="host_alpha__switch_sally"/>
 				<path d="M0,100
 						C100,100
-						100,50
-						200,50" class="cable layer_1_physical" data-id="switch_sally__host_0"/>
-
+						100,150
+						200,150" class="cable layer_1_physical" data-id="host_bravo__switch_sally"/>
 				<path d="M0,200
 						C100,200
-						100,250
-						200,250" class="cable layer_1_physical" data-id="switch_1__host_1"/>
+						100,150
+						200,150" class="cable layer_1_physical" data-id="host_0__switch_sally"/>
 				<path d="M0,300
 						C100,300
-						100,250
-						200,250" class="cable layer_1_physical" data-id="switch_1__host_2"/>
+						100,150
+						200,150" class="cable layer_1_physical" data-id="host_1__switch_sally"/>
 
-				<path d="M200,50
-						C300,50
-						300,150
-						400,150" class="cable layer_1_physical" data-id="router_reggie__switch_sally"/>
-				<path d="M200,250
-						C300,250
-						300,150
-						400,150" class="cable layer_1_physical" data-id="router_reggie__switch_1"/>
+				<path d="M0,400
+						C100,400
+						100,550
+						200,550" class="cable layer_1_physical" data-id="host_2__switch_sarah"/>
+				<path d="M0,500
+						C100,500
+						100,550
+						200,550" class="cable layer_1_physical" data-id="host_3__switch_sarah"/>
+				<path d="M0,600
+						C100,600
+						100,550
+						200,550" class="cable layer_1_physical" data-id="host_4__switch_sarah"/>
+				<path d="M0,700
+						C100,700
+						100,550
+						200,550" class="cable layer_1_physical" data-id="host_5__switch_sarah"/>
+
+				<path d="M200,150
+						C300,150
+						300,350
+						400,350" class="cable layer_1_physical" data-id="switch_sally__router_reggie"/>
+				<path d="M200,550
+						C300,550
+						300,350
+						400,350" class="cable layer_1_physical" data-id="switch_sarah__router_reggie"/>
 
 				<!-- devices -->
 				<circle cx=0 cy=0 class="device host" data-id="host_alpha"/>
 				<text x=0 y=0 class="label baseline" data-id="host_alpha">Computer</text>
 				<text x=0 y=0 class="label hanging" data-id="host_alpha">Alpha</text>
+
 				<circle cx=0 cy=100 class="device host" data-id="host_bravo"/>
 				<text x=0 y=100 class="label baseline" data-id="host_bravo">Computer</text>
 				<text x=0 y=100 class="label hanging" data-id="host_bravo">Bravo</text>
 
-				<circle cx=0 cy=200 class="device host" data-id="host_1"/>
-				<circle cx=0 cy=300 class="device host" data-id="host_2"/>
+				<circle cx=0 cy=200 class="device host" data-id="host_0"/>
 
+				<circle cx=0 cy=300 class="device host" data-id="host_1"/>
 
-				<circle cx=200 cy=50 class="device layer_2_data_link" data-id="switch_sally"/>
-				<text x=200 y=50 class="label baseline" data-id="switch_sally">Switch</text>
-				<text x=200 y=50 class="label hanging" data-id="switch_sally">Sally</text>
-
-				<circle cx=200 cy=250 class="device layer_2_data_link" data-id="switch_1"/>
-
-
-				<circle cx=400 cy=150 class="device layer_3_network" data-id="router_reggie"/>
-				<text x=400 y=150 class="label baseline" data-id="router_reggie">Router</text>
-				<text x=400 y=150 class="label hanging" data-id="router_reggie">Reggie</text>
-			</g>
-		</svg>
-
-		<section>
-			<h2>example: OSI Layer 3: Network</h2>
-			<section>
-				<h3></h3>
-				<section>
-					<ul>
-						<li>In order to connect even more computers, we can connect more <strong>switches</strong> and <strong>routers</strong>.</li>
-						<li>A <strong>router</strong> is a device that receives data, then sends the data to another device that is closer to the destination computer (or to the destination computer directly, if possible).</li>
-						<li>(We'll later see more of <strong>routers</strong>, which are concepts in <strong>OSI layer 3</strong>.)</li>
-					</ul>
-					<ul>
-						<li>In this setup, <span class="host">Computer Alpha</span> and <span class="host">Computer Bravo</span> may share a <strong>switch</strong>, ...</li>
-					</ul>
-				</section>
-			</section>
-		</section>
-	</section>
-
-	<section class="draft">
-		<svg width="500" height="400">
-			<g transform="translate(50, 50)">
-				<!-- cables -->
-				<path d="M0,0
-						C100,0
-						100,50
-						200,50" class="cable layer_1_physical" data-id="switch_sally__host_alpha"/>
-				<path d="M0,100
-						C100,100
-						100,50
-						200,50" class="cable layer_1_physical" data-id="switch_sally__host_0"/>
-
-				<path d="M0,200
-						C100,200
-						100,250
-						200,250" class="cable layer_1_physical" data-id="switch_1__host_1"/>
-				<path d="M0,300
-						C100,300
-						100,250
-						200,250" class="cable layer_1_physical" data-id="switch_1__host_2"/>
-
-				<path d="M200,50
-						C300,50
-						300,150
-						400,150" class="cable layer_1_physical" data-id="router_reggie__switch_sally"/>
-				<path d="M200,250
-						C300,250
-						300,150
-						400,150" class="cable layer_1_physical" data-id="router_reggie__switch_1"/>
-
-				<!-- devices -->
-				<circle cx=0 cy=0 class="device host" data-id="host_alpha"/>
-				<text x=0 y=0 class="label baseline" data-id="host_alpha">Computer</text>
-				<text x=0 y=0 class="label hanging" data-id="host_alpha">Alpha</text>
-				<circle cx=0 cy=100 class="device host" data-id="host_0"/>
-
-				<circle cx=0 cy=200 class="device host" data-id="host_1"/>
-				<circle cx=0 cy=300 class="device host" data-id="host_bravo"/>
-				<text x=0 y=300 class="label baseline" data-id="host_bravo">Computer</text>
-				<text x=0 y=300 class="label hanging" data-id="host_bravo">Bravo</text>
-
-
-				<circle cx=200 cy=50 class="device layer_2_data_link" data-id="switch_sally"/>
-				<text x=200 y=50 class="label baseline" data-id="switch_sally">Switch</text>
-				<text x=200 y=50 class="label hanging" data-id="switch_sally">Sally</text>
-
-				<circle cx=200 cy=250 class="device layer_2_data_link" data-id="switch_sammy"/>
-				<text x=200 y=250 class="label baseline" data-id="switch_sammy">Switch</text>
-				<text x=200 y=250 class="label hanging" data-id="switch_sammy">Sammy</text>
-
-
-				<circle cx=400 cy=150 class="device layer_3_network" data-id="router_reggie"/>
-				<text x=400 y=150 class="label baseline" data-id="router_reggie">Router</text>
-				<text x=400 y=150 class="label hanging" data-id="router_reggie">Reggie</text>
-			</g>
-		</svg>
-
-		<section>
-			<h2></h2>
-			<section>
-				<h3></h3>
-				<section>
-					<ul>
-						<li>...or <span class="host">Computer Alpha</span> and <span class="host">Computer Bravo</span> may not share a <strong>switch</strong> but still share a <strong>router</strong>, ...</li>
-					</ul>
-				</section>
-			</section>
-		</section>
-	</section>
-
-	<section class="draft">
-		<svg width="500" height="900">
-			<g transform="translate(50, 50)">
-				<!-- cables -->
-				<path d="M0,0
-						C100,0
-						100,50
-						200,50" class="cable layer_1_physical" data-id="switch_sally__host_alpha"/>
-				<path d="M0,100
-						C100,100
-						100,50
-						200,50" class="cable layer_1_physical" data-id="switch_sally__host_0"/>
-
-				<path d="M0,200
-						C100,200
-						100,250
-						200,250" class="cable layer_1_physical" data-id="switch_1__host_1"/>
-				<path d="M0,300
-						C100,300
-						100,250
-						200,250" class="cable layer_1_physical" data-id="switch_1__host_2"/>
-
-				<path d="M0,500
-						C100,500
-						100,550
-						200,550" class="cable layer_1_physical" data-id="switch_2__host_3"/>
-				<path d="M0,600
-						C100,600
-						100,550
-						200,550" class="cable layer_1_physical" data-id="switch_2__host_4"/>
-
-				<path d="M0,700
-						C100,700
-						100,750
-						200,750" class="cable layer_1_physical" data-id="switch_sarah__host_bravo"/>
-				<path d="M0,800
-						C100,800
-						100,750
-						200,750" class="cable layer_1_physical" data-id="switch_sarah__host_5"/>
-
-				<path d="M200,50
-						C300,50
-						300,150
-						400,150" class="cable layer_1_physical" data-id="router_reggie__switch_sally"/>
-				<path d="M200,250
-						C300,250
-						300,150
-						400,150" class="cable layer_1_physical" data-id="router_reggie__switch_1"/>
-
-				<path d="M200,550
-						C300,550
-						300,650
-						400,650" class="cable layer_1_physical" data-id="router_rigby__switch_5"/>
-				<path d="M200,750
-						C300,750
-						300,650
-						400,650" class="cable layer_1_physical" data-id="router_rigby__switch_sarah"/>
-
-				<path d="M400,150
-						C400,150
-						400,400
-						400,400" class="cable layer_1_physical" data-id="router_reggie__router_roxy"/>
-
-				<path d="M400,400
-						C400,400
-						400,650
-						400,650" class="cable layer_1_physical" data-id="router_roxy__router_rigby"/>
-
-				<!-- devices -->
-				<circle cx=0 cy=0 class="device host" data-id="host_alpha"/>
-				<text x=0 y=0 class="label baseline" data-id="host_alpha">Computer</text>
-				<text x=0 y=0 class="label hanging" data-id="host_alpha">Alpha</text>
-				<circle cx=0 cy=100 class="device host" data-id="host_0"/>
-
-				<circle cx=0 cy=200 class="device host" data-id="host_1"/>
-				<circle cx=0 cy=300 class="device host" data-id="host_2"/>
+				<circle cx=0 cy=400 class="device host" data-id="host_2"/>
 
 				<circle cx=0 cy=500 class="device host" data-id="host_3"/>
+
 				<circle cx=0 cy=600 class="device host" data-id="host_4"/>
 
-				<circle cx=0 cy=700 class="device host" data-id="host_bravo"/>
-				<text x=0 y=700 class="label baseline" data-id="host_bravo">Computer</text>
-				<text x=0 y=700 class="label hanging" data-id="host_bravo">Bravo</text>
-				<circle cx=0 cy=800 class="device host" data-id="host_5"/>
+				<circle cx=0 cy=700 class="device host" data-id="host_5"/>
 
 
-				<circle cx=200 cy=50 class="device layer_2_data_link" data-id="switch_sally"/>
-				<text x=200 y=50 class="label baseline" data-id="switch_sally">Switch</text>
-				<text x=200 y=50 class="label hanging" data-id="switch_sally">Sally</text>
+				<circle cx=200 cy=150 class="device layer_2_data_link" data-id="switch_sally"/>
+				<text x=200 y=150 class="label baseline" data-id="switch_sally">Switch</text>
+				<text x=200 y=150 class="label hanging" data-id="switch_sally">Sally</text>
 
-				<circle cx=200 cy=250 class="device layer_2_data_link" data-id="switch_1"/>
-
-				<circle cx=200 cy=550 class="device layer_2_data_link" data-id="switch_2"/>
-
-				<circle cx=200 cy=750 class="device layer_2_data_link" data-id="switch_sarah"/>
-				<text x=200 y=750 class="label baseline" data-id="switch_sarah">Switch</text>
-				<text x=200 y=750 class="label hanging" data-id="switch_sarah">Sarah</text>
+				<circle cx=200 cy=550 class="device layer_2_data_link" data-id="switch_sarah"/>
+				<text x=200 y=550 class="label baseline" data-id="switch_sarah">Switch</text>
+				<text x=200 y=550 class="label hanging" data-id="switch_sarah">Sarah</text>
 
 
-				<circle cx=400 cy=150 class="device layer_3_network" data-id="router_reggie"/>
-				<text x=400 y=150 class="label baseline" data-id="router_reggie">Router</text>
-				<text x=400 y=150 class="label hanging" data-id="router_reggie">Reggie</text>
-
-				<circle cx=400 cy=400 class="device layer_3_network" data-id="router_roxy"/>
-				<text x=400 y=400 class="label baseline" data-id="router_roxy">Router</text>
-				<text x=400 y=400 class="label hanging" data-id="router_roxy">Roxy</text>
-
-				<circle cx=400 cy=650 class="device layer_3_network" data-id="router_rigby"/>
-				<text x=400 y=650 class="label baseline" data-id="router_rigby">Router</text>
-				<text x=400 y=650 class="label hanging" data-id="router_rigby">Rigby</text>
+				<circle cx=400 cy=350 class="device layer_3_network" data-id="router_reggie"/>
+				<text x=400 y=350 class="label baseline" data-id="router_reggie">Router</text>
+				<text x=400 y=350 class="label hanging" data-id="router_reggie">Reggie</text>
 			</g>
 		</svg>
 
 		<section>
-			<h2></h2>
+			<h2>preview of upcoming lessons: Layer 3: Network</h2>
 			<section>
 				<h3></h3>
 				<section>
 					<ul>
-						<li>...or <span class="host">Computer Alpha</span> and <span class="host">Computer Bravo</span> may not even share a <strong>router</strong>.</li>
+						<li>We can add more <span class="layer_2_data_link">switches</span> and <span class="layer_3_network">routers</span>, so that we can connect even more <span class="host">computers</span>.</li>
 					</ul>
-					<ul>
-						<li>(We'll later see how Computer Alpha sends data to Computer Bravo in each case.)</li>
+					<ul class="teaser_alert">
+						<li>(Don't worry about the new terminology yet! We'll later see more of <span class="layer_3_network">routers</span>, which are concepts in <span class="layer_3_network">Layer 3</span>.)</li>
 					</ul>
 				</section>
 			</section>
